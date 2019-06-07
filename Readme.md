@@ -10,4 +10,7 @@ index.php -> 시작 홈페이지입니다.
 ## 수정사항
 
 * git history에서 확인하실 수 있습니다
-* dep_in
+* 1. dep_insert 에서 transaction 기능 추가
+* 2. delete 에서 transaction 기능 추가
+* 3. modify 에서 transaction 기능 추가
+* 지난 텀프에서 감점당한 '수정 버튼' 수정
