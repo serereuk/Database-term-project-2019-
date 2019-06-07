@@ -8,7 +8,7 @@ $mode = "입력";
 $action = "dep_insert.php";
 
 if (array_key_exists("vol_id", $_GET)) {
-    $experiment_id = $_GET["vol_id"];
+    $vol_id = $_GET["vol_id"];
     $query =  "select * from volunteer where vol_id = $vol_id";
     $res = mysqli_query($conn, $query);
     $vol = mysqli_fetch_array($res);

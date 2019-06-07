@@ -9,7 +9,7 @@ $action = "dep_insert.php";
 
 if (array_key_exists("ad_id", $_GET)) {
     $ad_id = $_GET["ad_id"];
-    $query =  "select * from department where dept_id = $ad_id";
+    $query =  "select * from advisor where ad_id = $ad_id";
     $res = mysqli_query($conn, $query);
     $ad = mysqli_fetch_array($res);
     if(!$ad) {
