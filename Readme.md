@@ -3,7 +3,7 @@
 
 ## 귀여운 모르모트 사이트로 실험자를 모집하세요!
 
-[!pic]('/mall/images/pic1.png')
+[!alt text](/mall/images/pic1.png)
 ```
 index.php -> 시작 홈페이지입니다.
 ```
