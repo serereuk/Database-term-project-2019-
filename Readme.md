@@ -18,5 +18,5 @@ index.php -> 시작 홈페이지입니다.
 
 ## 지난 텀프에서 감점당한 부분 수정한 history 내역
 
-![alt text]('/저번 텀프 감점사항1.png')  
-![alt text]('/저번 텀프 감점사항2.png')  
+![alt text](error1.png)  
+![alt text](error2.png)  
