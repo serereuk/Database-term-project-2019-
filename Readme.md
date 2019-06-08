@@ -27,3 +27,13 @@ index.php -> 시작 홈페이지입니다.
 ## 나머지 transaction 부분에 대하 수정한 history 내역
 
 https://github.com/serereuk/Database-term-project-2019-/commit/fdfba4a5415e7981fdd544a122465de7ede864d4
+
+```
+mysqli_query($conn, 'set autocommit = 0');
+mysqli_query($conn, 'set transation isolation level serializable');
+mysqli_query($conn, 'begin');
+
+를 추가해주고
+
+정상적으로 입력되면 commit, 안되면 rollback을 했습니다!
+```
