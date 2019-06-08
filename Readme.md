@@ -35,5 +35,10 @@ mysqli_query($conn, 'begin');
 
 를 추가해주고
 
-정상적으로 입력되면 commit, 안되면 rollback을 했습니다!
+정상적으로 입력되면 commit, 안되면 rollback을 했습니다! 즉,
+
+mysqli_query($conn, 'rollback');
+mysqli_query($conn, 'commit');
+
+도 추가했습니다!
 ```
