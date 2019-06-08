@@ -24,4 +24,4 @@ index.php -> 시작 홈페이지입니다.
 
 ## 나머지 transaction 부분에 대하 수정한 history 내역
 
-!('https://github.com/serereuk/Database-term-project-2019-/commit/fdfba4a5415e7981fdd544a122465de7ede864d4')
+https://github.com/serereuk/Database-term-project-2019-/commit/fdfba4a5415e7981fdd544a122465de7ede864d4
